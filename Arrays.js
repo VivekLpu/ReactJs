@@ -38,3 +38,13 @@ var c = myFavLang[1];
 console.log("1st Language: ", a);
 console.log("5th Language: ", b);
 console.log("2nd Language: ", c);
+
+//spread operator
+const fruits = ['Apple', 'Banana', 'Cherry'];
+const vegetables = ['Carrot','Bracoli','Spinach']
+
+const fruitsCopy = [...fruits];
+console.log("Fruits Copy: ",fruitsCopy);
+
+const vegetablesCopy = [...vegetables];
+console.log("Vegetables Copy: ",vegetablesCopy);

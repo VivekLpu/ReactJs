@@ -34,7 +34,7 @@ const myFavLang = ["HTML", "CSS", "PYTHON", "JAVASCRIPT", "JAVA"];
 //ES5
 var a = myFavLang[0];
 var b = myFavLang[4];
-var c = myFavLang[3];
+var c = myFavLang[1];
 console.log("1st Language: ", a);
-console.log("4th Language: ", b);
+console.log("5th Language: ", b);
 console.log("2nd Language: ", c);

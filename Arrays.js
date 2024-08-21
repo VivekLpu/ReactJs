@@ -28,3 +28,13 @@ console.log("Array From String: ",numArrayFromStr);
 //array.of()
 const arrayOfNum = Array.of(12,11,23,12);
 console.log("Array of(): ",arrayOfNum);
+
+//destructuring
+const myFavLang = ["HTML", "CSS", "PYTHON", "JAVASCRIPT", "JAVA"];
+//ES5
+var a = myFavLang[0];
+var b = myFavLang[4];
+var c = myFavLang[3];
+console.log("1st Language: ", a);
+console.log("4th Language: ", b);
+console.log("2nd Language: ", c);

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="result"></p>
+    <script type="module">
+        //import the function from module.js from js module
+        import{add,substract} from './modules.js';
+        const a = 23;
+        const b = 30;
+        //perform the operation
+        const result = `Add: ${a} + ${b} = ${add(a,b)} | ${a} - ${b} = ${substract(a,b)}`;
+        //print the result
+        document.getElementById("result").textContent = result;
+    </script>
+    
+</body>
+</html>
